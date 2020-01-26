@@ -1,6 +1,6 @@
 ## AWSCred
 
-### Command-line tool to update non-defaylt AWS CLI credentials from your clipboard.
+### Command-line tool to update non-default AWS CLI credentials from your clipboard.
 
 #### Installation:
 
