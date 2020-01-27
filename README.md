@@ -31,12 +31,12 @@ yarn link
 The `AWSCRED` environment variable is a comma delimited list of environment pairs containing `<desired environment label>:<source label substring>`:
 
 ```
-export AWSCRED="dev:sandbox,hive:Developer"
+export AWSCRED="dev:sandbox,test:Developer"
 ```
 
 Alternatively, you may provide a `.env` file in the `awscred` code folder with the content:
 ```
-AWSCRED="dev:sandbox,hive:Developer"
+AWSCRED="dev:sandbox,test:Developer"
 ```
 
 #### Usage:
