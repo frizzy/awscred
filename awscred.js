@@ -26,12 +26,12 @@ const schema = {
       required: true
     },
     aws_secret_access_key: {
-      pattern: /^aws_secret_access_key\s*=\s*[a-zA-Z0-9\/\+]+$/,
+      pattern: /^aws_secret_access_key\s*=\s*[a-zA-Z0-9\/\+=]+$/,
       required: true,
       hidden: true,
     },
     aws_session_token: {
-      pattern: /^aws_session_token\s*=\s*[a-zA-Z0-9\/\+]+$/,
+      pattern: /^aws_session_token\s*=\s*[a-zA-Z0-9\/\+=]+$/,
       required: true,
       hidden: true
     }
